@@ -1,0 +1,2272 @@
+{
+  "intents": [
+    {
+      "intent": "cgpa",
+      "examples": [
+        {
+          "text": "85%"
+        },
+        {
+          "text": "80"
+        },
+        {
+          "text": "95"
+        },
+        {
+          "text": "78"
+        },
+        {
+          "text": "99"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "college",
+      "examples": [
+        {
+          "text": "anna university",
+          "mentions": [
+            {
+              "entity": "candidate_clg",
+              "location": [
+                0,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "IIT bombay",
+          "mentions": [
+            {
+              "entity": "candidate_clg",
+              "location": [
+                0,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "text": "college of enginnering guindy",
+          "mentions": [
+            {
+              "entity": "candidate_clg",
+              "location": [
+                0,
+                29
+              ]
+            }
+          ]
+        },
+        {
+          "text": "new college of engineering",
+          "mentions": [
+            {
+              "entity": "candidate_clg",
+              "location": [
+                0,
+                26
+              ]
+            }
+          ]
+        },
+        {
+          "text": "psg college of technology",
+          "mentions": [
+            {
+              "entity": "candidate_clg",
+              "location": [
+                0,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "text": "birla institute of technology and sciences",
+          "mentions": [
+            {
+              "entity": "candidate_clg",
+              "location": [
+                0,
+                42
+              ]
+            }
+          ]
+        },
+        {
+          "text": "kumaraguru college of technology",
+          "mentions": [
+            {
+              "entity": "candidate_clg",
+              "location": [
+                0,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i study at coimbatore institute of technology",
+          "mentions": [
+            {
+              "entity": "candidate_clg",
+              "location": [
+                11,
+                45
+              ]
+            }
+          ]
+        },
+        {
+          "text": "indian institute of technology",
+          "mentions": [
+            {
+              "entity": "candidate_clg",
+              "location": [
+                0,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "text": "coimbatore institute of technology",
+          "mentions": [
+            {
+              "entity": "candidate_clg",
+              "location": [
+                0,
+                34
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Go away"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "experience",
+      "examples": [
+        {
+          "text": "1"
+        },
+        {
+          "text": "0"
+        },
+        {
+          "text": "5"
+        },
+        {
+          "text": "10"
+        },
+        {
+          "text": "4"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Greetings",
+      "examples": [
+        {
+          "text": "hey"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "good evening"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "good afternoon"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "email",
+      "examples": [
+        {
+          "text": "lakshminarayanan@yahoo.in",
+          "mentions": [
+            {
+              "entity": "candidate_mail",
+              "location": [
+                0,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "text": "contact me at mymail@domain.com",
+          "mentions": [
+            {
+              "entity": "candidate_mail",
+              "location": [
+                14,
+                31
+              ]
+            }
+          ]
+        },
+        {
+          "text": "abc@example.com",
+          "mentions": [
+            {
+              "entity": "candidate_mail",
+              "location": [
+                0,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "lachu360@gmail.com",
+          "mentions": [
+            {
+              "entity": "candidate_mail",
+              "location": [
+                0,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "lokeshr@gmail.com",
+          "mentions": [
+            {
+              "entity": "candidate_mail",
+              "location": [
+                0,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "sharbinisrinivasan7@gmail.com",
+          "mentions": [
+            {
+              "entity": "candidate_mail",
+              "location": [
+                0,
+                29
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ramkamal102@gmail.com",
+          "mentions": [
+            {
+              "entity": "candidate_mail",
+              "location": [
+                0,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "text": "lakshminarayanan630@gmail.com",
+          "mentions": [
+            {
+              "entity": "candidate_mail",
+              "location": [
+                0,
+                29
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "graduating_year",
+      "examples": [
+        {
+          "text": "my graduating year is 2021"
+        },
+        {
+          "text": "2026"
+        },
+        {
+          "text": "2020"
+        },
+        {
+          "text": "2024"
+        },
+        {
+          "text": "2021"
+        },
+        {
+          "text": "2025"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "About you"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "Tell me about your life"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "name",
+      "examples": [
+        {
+          "text": "my name is jack",
+          "mentions": [
+            {
+              "entity": "candidate_name",
+              "location": [
+                11,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "people call me sharbini",
+          "mentions": [
+            {
+              "entity": "candidate_name",
+              "location": [
+                15,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i am lokesh",
+          "mentions": [
+            {
+              "entity": "candidate_name",
+              "location": [
+                5,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is lachu",
+          "mentions": [
+            {
+              "entity": "candidate_name",
+              "location": [
+                11,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "im dan",
+          "mentions": [
+            {
+              "entity": "candidate_name",
+              "location": [
+                3,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "lakshmi narayanan",
+          "mentions": [
+            {
+              "entity": "candidate_name",
+              "location": [
+                0,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "i am regina",
+          "mentions": [
+            {
+              "entity": "candidate_name",
+              "location": [
+                5,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "planner silvana"
+        },
+        {
+          "text": "virus"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're too stupid"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Where can I find the frequently asked questions?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you able to understand?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "candidate_skills",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "problem solving",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "c++",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "programming",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "java",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "database",
+          "synonyms": [
+            "backend developer",
+            "sql",
+            "nosql"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "front end development",
+          "synonyms": [
+            "front end developer",
+            "ui developer"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "full stack devellopment",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "web development",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "html",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "App development",
+          "synonyms": [
+            "Android development",
+            "IOS development"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Internet of things",
+          "synonyms": [
+            "Iot"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "machine learning",
+          "synonyms": [
+            "ml"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Artificial Intelligence",
+          "synonyms": [
+            "AI"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "python",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "greetings",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Good Afternoon",
+          "synonyms": [
+            "gud an",
+            "good afternoon",
+            "ga",
+            "afternoon"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Good Evening",
+          "synonyms": [
+            "gud evng",
+            "ge",
+            "evening",
+            "good evening"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Good Morning",
+          "synonyms": [
+            "gud mrng",
+            "morning",
+            "gud mng",
+            "gm",
+            "good morning"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "candidate_clg",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "psg college of technology",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "anna university",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "birla institute of technology and sciences",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "college of enginnering guindy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "coimbatore institute of technology",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "IIT bombay",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "indian institute of technology",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "kumaraguru college of technology",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "new college of engineering",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "candidate_name",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "regina",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "lokesh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "lakshmi narayanan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sharbini",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "lachu",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "jack",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "dan",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "candidate_mail",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "abc@example.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "lachu360@gmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ramkamal102@gmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "lokeshr@gmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "lakshminarayanan630@gmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "lakshminarayanan@yahoo.in",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "mymail@domain.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sharbinisrinivasan7@gmail.com",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-percentage",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great Evening Today"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1594373583321",
+      "conditions": "@greetings:(Good Evening)",
+      "dialog_node": "response_4_1594464358438",
+      "previous_sibling": "response_3_1594464348876"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hey Good noon! Happy afternoon"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1594373583321",
+      "conditions": "@greetings:(Good Afternoon)",
+      "dialog_node": "response_3_1594464348876",
+      "previous_sibling": "response_4_1594464119550"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello Have a nice day"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1594373583321",
+      "conditions": "anything_else",
+      "dialog_node": "response_1_1594464710574",
+      "previous_sibling": "response_4_1594464358438"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hey Good morning ,Its a pleasant day"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1594373583321",
+      "conditions": "@greetings:(Good Morning)",
+      "dialog_node": "response_4_1594464119550"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1594496610680",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1594496610707",
+      "previous_sibling": "handler_4_1594496610707"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1594496610680",
+      "context": {
+        "number": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_4_1594496610707"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Enter your college name"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_6_1594496377835",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1594496377865",
+      "previous_sibling": "handler_5_1594496377865"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1594496377835",
+      "context": {
+        "clg": "@candidate_clg"
+      },
+      "conditions": "@candidate_clg",
+      "event_name": "input",
+      "dialog_node": "handler_5_1594496377865"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Enter your name"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_10_1594493346889",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1594493346898",
+      "previous_sibling": "handler_5_1594493346898"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1594493346889",
+      "context": {
+        "name": "@candidate_name"
+      },
+      "conditions": "@candidate_name",
+      "event_name": "input",
+      "dialog_node": "handler_5_1594493346898"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1594494579559",
+      "variable": "$skill2",
+      "dialog_node": "slot_5_1594496641429"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1594493799733",
+      "variable": "$clg",
+      "dialog_node": "slot_6_1594496377835"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1594497153983",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1594497153998",
+      "previous_sibling": "handler_6_1594497153998"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1594497153983",
+      "context": {
+        "skills2": "@candidate_skills"
+      },
+      "conditions": "@candidate_skills",
+      "event_name": "input",
+      "dialog_node": "handler_6_1594497153998"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Enter your email"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1594493675130",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1594493675160",
+      "previous_sibling": "handler_9_1594493675160"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1594493675130",
+      "context": {
+        "mail": "@candidate_mail"
+      },
+      "conditions": "@candidate_mail",
+      "event_name": "input",
+      "dialog_node": "handler_9_1594493675160"
+    },
+    {
+      "type": "frame",
+      "title": "mobile",
+      "parent": "node_7_1594492958206",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1594467132270"
+      },
+      "conditions": "@sys-number",
+      "dialog_node": "node_5_1594494601231",
+      "previous_sibling": "node_6_1594494579559"
+    },
+    {
+      "type": "frame",
+      "title": "cgpa",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great! Do u have any work experience enter in years"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1594492958206",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_10_1594493859078"
+      },
+      "conditions": "#cgpa",
+      "dialog_node": "node_8_1594493834021",
+      "previous_sibling": "node_9_1594493799733"
+    },
+    {
+      "type": "frame",
+      "title": "experience",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "when is your graduating year"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1594492958206",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_1_1594494466542"
+      },
+      "conditions": "#experience",
+      "dialog_node": "node_10_1594493859078",
+      "previous_sibling": "node_8_1594493834021"
+    },
+    {
+      "type": "frame",
+      "title": "skill3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "At last Enter your mobile number"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1594492958206",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_5_1594494601231"
+      },
+      "conditions": "@candidate_skills",
+      "dialog_node": "node_6_1594494579559",
+      "previous_sibling": "node_8_1594494571377"
+    },
+    {
+      "type": "frame",
+      "title": "skill1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Enter your skill 2"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1594492958206",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_8_1594494571377"
+      },
+      "conditions": "@candidate_skills",
+      "dialog_node": "node_3_1594494556746",
+      "previous_sibling": "node_1_1594494466542"
+    },
+    {
+      "type": "frame",
+      "title": "clg_name",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ok now enter your CGPA in  percentage"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1594492958206",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_8_1594493834021"
+      },
+      "conditions": "#college",
+      "dialog_node": "node_9_1594493799733",
+      "previous_sibling": "node_6_1594493591580"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1594492958206",
+      "variable": "$name",
+      "dialog_node": "slot_10_1594493346889",
+      "previous_sibling": "node_5_1594494601231"
+    },
+    {
+      "type": "frame",
+      "title": "graduation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Now we need your best 3 Skills  Enter your Skill1"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1594492958206",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_3_1594494556746"
+      },
+      "conditions": "#graduating_year",
+      "dialog_node": "node_1_1594494466542",
+      "previous_sibling": "node_10_1594493859078"
+    },
+    {
+      "type": "frame",
+      "title": "skill2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Enter your skill3"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1594492958206",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1594494579559"
+      },
+      "conditions": "@candidate_skills",
+      "dialog_node": "node_8_1594494571377",
+      "previous_sibling": "node_3_1594494556746"
+    },
+    {
+      "type": "frame",
+      "title": "email",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok we'll use $email for further communication Tell me your college name"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1594492958206",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1594493799733"
+      },
+      "conditions": "#email",
+      "dialog_node": "node_6_1594493591580"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_7_1594468086472",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1594486470127",
+      "previous_sibling": "slot_9_1594489027009"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1594468086472",
+      "variable": "$name",
+      "dialog_node": "slot_9_1594489027009"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1594493834021",
+      "variable": "$percentage",
+      "dialog_node": "slot_2_1594496531520"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Enter your name"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_9_1594489027009",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1594489027012",
+      "previous_sibling": "handler_1_1594489027012"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1594489027009",
+      "context": {
+        "name": "@candidate_name"
+      },
+      "conditions": "@candidate_name",
+      "event_name": "input",
+      "dialog_node": "handler_1_1594489027012"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1594494571377",
+      "variable": "$skills2",
+      "dialog_node": "slot_8_1594497153983"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1594496629400",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1594496629417",
+      "previous_sibling": "handler_3_1594496629417"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1594496629400",
+      "context": {
+        "grad_year": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_3_1594496629417"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1594496623070",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1594496623081",
+      "previous_sibling": "handler_8_1594496623081"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1594496623070",
+      "context": {
+        "skill1": "@candidate_skills"
+      },
+      "conditions": "@candidate_skills",
+      "event_name": "input",
+      "dialog_node": "handler_8_1594496623081"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1594496641429",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1594496641458",
+      "previous_sibling": "handler_5_1594496641458"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1594496641429",
+      "context": {
+        "skill2": "@candidate_skills"
+      },
+      "conditions": "@candidate_skills",
+      "event_name": "input",
+      "dialog_node": "handler_5_1594496641458"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1594494466542",
+      "variable": "$grad_year",
+      "dialog_node": "slot_3_1594496629400"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1594493591580",
+      "variable": "$mail",
+      "dialog_node": "slot_3_1594493675130"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1594494601231",
+      "dialog_node": "slot_3_1594496649941"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1594496649941",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1594496649954",
+      "previous_sibling": "handler_8_1594496649954"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_3_1594496649941",
+      "event_name": "input",
+      "dialog_node": "handler_8_1594496649954"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1594493859078",
+      "variable": "$number",
+      "dialog_node": "slot_3_1594496610680"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1594494556746",
+      "variable": "$skill1",
+      "dialog_node": "slot_5_1594496623070"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Enter your cgpa"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1594496531520",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1594496531535",
+      "previous_sibling": "handler_6_1594496531535"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1594496531520",
+      "context": {
+        "percentage": "@sys-percentage"
+      },
+      "conditions": "@sys-percentage",
+      "event_name": "input",
+      "dialog_node": "handler_6_1594496531535"
+    },
+    {
+      "type": "standard",
+      "title": "begin",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lets get started! May we know your name, please?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1594492958206"
+      },
+      "conditions": "",
+      "dialog_node": "node_7_1594468086472",
+      "previous_sibling": "node_6_1594373583321"
+    },
+    {
+      "type": "standard",
+      "title": "Greetings node",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#General_Greetings || #Greetings || @greetings",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1594373583321",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Assist",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Is there anything i may assist you with?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "dialog_node": "node_8_1594467132270",
+      "previous_sibling": "node_7_1594492958206"
+    },
+    {
+      "type": "frame",
+      "title": "candidate_info",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thats a lovely name $name What is your E-mail?      We'll be needing this to get in touch with you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#name",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1594492958206",
+      "previous_sibling": "node_7_1594468086472"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_8_1594467132270",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello! I am your Recruiting Assistant. I am here to prequalify candidates for the Interview."
+              },
+              {
+                "text": "Hey there! 👋Good to see you here. I'm your Recruiting Assistant. Primarily, what I do is to prequalify candidates for the Interview."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1594468086472"
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Recruiting Bot",
+  "language": "en",
+  "description": ""
+}
